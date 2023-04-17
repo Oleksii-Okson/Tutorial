@@ -186,3 +186,10 @@ text-decoration: none;
     .mail:focus {
         color: #404bbf;
     }
+    .light {
+        background-color: #4D5AE5;
+        color: #ffffff; 
+    }
+    .light:hover {
+        background-color: #404BBF;
+    }
