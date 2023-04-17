@@ -72,7 +72,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+
 }
 
 .title-light {
@@ -87,9 +87,7 @@ body {
     background: var(--secondary-txt-cl);
 }
 
-.header-studio,
-.header-portfolio,
-.header-contacts,
+.contacts,
 .header-link {
     font-family: var(--primary-font);
     font-weight: 500;
