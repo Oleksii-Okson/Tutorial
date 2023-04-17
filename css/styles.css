@@ -10,6 +10,7 @@
     --secondary-txt-cl: #2E2F42;
     --light-txt-cl: #F4F4FD;
     --focus-txt-btn: #404BBF;
+    --body-cl: #FFFFFF
     /* others */
 
 
@@ -22,6 +23,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-txt-color);
+    background-color: var(--body-cl);
 
 }
 
@@ -134,7 +136,7 @@ text-decoration: none;
    color: var(--light-txt-cl);
    }
    .header-link {
-   font-family: var(--secondary-font);
+   font-family: "Raleway", sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.17;
