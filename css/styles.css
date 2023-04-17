@@ -26,7 +26,7 @@ body {
     background-color: var(--body-cl);
 }
 
-.visually-hidden {
+.hidden {
     position: absolute;
     width: 1px;
     height: 1px;
