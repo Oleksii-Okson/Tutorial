@@ -110,6 +110,15 @@ body {
     color: var(--focus-txt-btn);
 }
 
+.header-link:hover{
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+
+
+
+}
 .mail,
 .number {
     font-family: var(--primary-font);
@@ -170,4 +179,10 @@ text-decoration: none;
     }
     .link {
         text-decoration: none;
+    }
+    .header-adress {
+        font-style: normal;
+    }
+    .mail:focus {
+        color: #404bbf;
     }
