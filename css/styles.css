@@ -10,7 +10,8 @@
     --secondary-txt-cl: #2E2F42;
     --light-txt-cl: #F4F4FD;
     --focus-txt-btn: #404BBF;
-    --body-cl: #FFFFFF
+    --body-cl: #FFFFFF;
+    --btn-cl: #4d5ae5;
     /* others */
 
 
@@ -43,11 +44,20 @@ body {
 .btn {
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--btn-cl);
+    background-color: var(--light-txt-cl);
+
 }
 
-.btn:hover,
+.btn:hover {
+    color: #FFFFFF;
+}
 .btn:focus {
-    color: var(--light-txt-cl);
+    color:#FFFFFF;
     background-color: var(--focus-txt-btn);
 }
 
@@ -151,4 +161,10 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-txt-cl);
+    }
+    .list {
+        list-style: none;
+    }
+    .link {
+        text-decoration: none;
     }
