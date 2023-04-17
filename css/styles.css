@@ -43,12 +43,13 @@ body {
     font-family: inherit;
     cursor: pointer;
 }
+
 .btn:hover,
 .btn:focus {
     color: var(--light-txt-cl);
-background-color: var(--focus-txt-btn);
+    background-color: var(--focus-txt-btn);
 }
-    
+
 
 
 .title {
@@ -105,18 +106,48 @@ background-color: var(--focus-txt-btn);
     letter-spacing: 0.02em;
     color: var(--main-txt-color);
 }
+
 .subtitle {
     font-family: var(--primary-font);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-txt-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-color);
 }
+
 .mail,
 .number,
 .decoration,
 .header-studio,
 .header-portfolio,
-.header-contacts {
-    text-decoration: none;
+.header-contacts,
+.header-link {
+text-decoration: none;
 }
+.footer-logo {
+    font-family: var(--secondary-font);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--light-txt-cl);
+   }
+   .header-link {
+   font-family: var(--secondary-font);
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4D5AE5;
+   }
+   .header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-txt-cl);
+    }
