@@ -77,6 +77,10 @@ body {
 
 .title-light {
     color: var(--light-txt-cl);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #ffffff;
 }
 
 .hero {
@@ -164,6 +168,10 @@ text-decoration: none;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4D5AE5;
+   }
+   .header-link:hover,
+   .header-link:focus {
+    color: #404bbf;
    }
    .header-logo {
     font-family: var(--secondary-font);
