@@ -122,13 +122,6 @@ body {
     color: var(--focus-txt-btn);
 }
 
-.header-nav:hover {
-    color: #404bbf;
-}
-
-.header-nav:focus {
-    color: #404bbf;
-}
 
 .mail,
 .number {
@@ -224,4 +217,11 @@ body {
 }
 .aboutteam-item {
     background-color: #FFFFFF;
+}
+.header-link:hover {
+    color: #404bbf;
+}
+
+.header-link:focus {
+    color: #404bbf;
 }
