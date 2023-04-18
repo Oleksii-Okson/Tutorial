@@ -218,10 +218,10 @@ body {
 .aboutteam-item {
     background-color: #FFFFFF;
 }
-.header-logo:hover {
+.contacts:hover {
     color: #404bbf;
 }
 
-.header-logo:focus {
+.contacts:focus {
     color: #404bbf;
 }
