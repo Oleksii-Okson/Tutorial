@@ -89,6 +89,7 @@ body {
     text-align: center;
     text-transform: capitalize;
     color: var(--secondary-txt-cl);
+    letter-spacing: 0.02em;
 }
 .hero {
     background: var(--secondary-txt-cl);
