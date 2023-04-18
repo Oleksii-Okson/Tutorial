@@ -88,7 +88,7 @@ body {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    
+    color: var(--secondary-txt-cl);
 }
 .hero {
     background: var(--secondary-txt-cl);
@@ -216,4 +216,11 @@ body {
 
 .light:hover {
     background-color: #404BBF;
+}
+.aboutteam {
+    background-color: #F4F4FD;
+
+}
+.aboutteam-item {
+    background-color: #FFFFFF;
 }
