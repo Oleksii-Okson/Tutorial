@@ -122,11 +122,11 @@ body {
     color: var(--focus-txt-btn);
 }
 
-.header-link:hover {
+.header-nav:hover {
     color: #404bbf;
 }
 
-.header-link:focus {
+.header-nav:focus {
     color: #404bbf;
 }
 
