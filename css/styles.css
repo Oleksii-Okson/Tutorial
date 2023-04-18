@@ -56,8 +56,9 @@ body {
 .btn:hover {
     color: #FFFFFF;
 }
+
 .btn:focus {
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: var(--focus-txt-btn);
 }
 
@@ -82,7 +83,13 @@ body {
     text-align: center;
     color: #ffffff;
 }
-
+.title-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
 .hero {
     background: var(--secondary-txt-cl);
 }
@@ -114,15 +121,14 @@ body {
     color: var(--focus-txt-btn);
 }
 
-.header-link:hover{
+.header-link:hover {
     color: #404bbf;
 }
+
 .header-link:focus {
     color: #404bbf;
-
-
-
 }
+
 .mail,
 .number {
     font-family: var(--primary-font);
@@ -149,31 +155,35 @@ body {
 .header-portfolio,
 .header-contacts,
 .header-link {
-text-decoration: none;
+    text-decoration: none;
 }
+
 .footer-logo {
     font-family: var(--secondary-font);
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: var(--light-txt-cl);
-   }
-   .header-link {
-   font-family: "Raleway", sans-serif;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.17;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: #4D5AE5;
-   }
-   .header-link:hover,
-   .header-link:focus {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+}
+
+.header-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
-   }
-   .header-logo {
+}
+
+.header-logo {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
@@ -181,23 +191,29 @@ text-decoration: none;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-txt-cl);
-    }
-    .list {
-        list-style: none;
-    }
-    .link {
-        text-decoration: none;
-    }
-    .header-adress {
-        font-style: normal;
-    }
-    .mail:focus {
-        color: #404bbf;
-    }
-    .light {
-        background-color: #4D5AE5;
-        color: #ffffff; 
-    }
-    .light:hover {
-        background-color: #404BBF;
-    }
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-adress {
+    font-style: normal;
+}
+
+.mail:focus {
+    color: #404bbf;
+}
+
+.light {
+    background-color: #4D5AE5;
+    color: #ffffff;
+}
+
+.light:hover {
+    background-color: #404BBF;
+}
