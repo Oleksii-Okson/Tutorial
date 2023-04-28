@@ -13,8 +13,6 @@
     --body-cl: #FFFFFF;
     --btn-cl: #4d5ae5;
     /* others */
-
-
 }
 
 
@@ -76,6 +74,14 @@ body {
 
 }
 
+.subtitle {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-txt-color);
+}
+
 .title-light {
     color: var(--light-txt-cl);
     font-size: 16px;
@@ -83,6 +89,7 @@ body {
     text-align: center;
     color: #ffffff;
 }
+
 .title-section {
     font-size: 36px;
     line-height: 1.11;
@@ -91,11 +98,8 @@ body {
     color: var(--secondary-txt-cl);
     letter-spacing: 0.02em;
 }
-.hero {
-    background: var(--secondary-txt-cl);
-}
 
-.footer {
+.hero {
     background: var(--secondary-txt-cl);
 }
 
@@ -134,14 +138,6 @@ body {
     color: var(--main-txt-color);
 }
 
-.subtitle {
-    font-family: var(--primary-font);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-txt-color);
-}
-
 .mail,
 .number,
 .decoration,
@@ -150,16 +146,6 @@ body {
 .header-contacts,
 .header-link {
     text-decoration: none;
-}
-
-.footer-logo {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--light-txt-cl);
 }
 
 .header-link {
@@ -211,17 +197,34 @@ body {
 .light:hover {
     background-color: #404BBF;
 }
+
 .aboutteam {
     background-color: #F4F4FD;
 
 }
+
 .aboutteam-item {
     background-color: #FFFFFF;
 }
+
 .contacts:hover {
     color: #404bbf;
 }
 
 .contacts:focus {
     color: #404bbf;
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+}
+
+.footer {
+    background: var(--secondary-txt-cl);
 }
